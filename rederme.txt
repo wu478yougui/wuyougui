@@ -6,7 +6,7 @@ mvn exec:java -Dexec.mainClass="com.hand.App" -Dexec.args="arg0 arg1 arg2"
 mvn clean compile exec:java -Dexec.mainClass="com.hand.App" -Dexec.args="arg0 arg1 arg2"
 
 
-maven创建Web项目
+maven创建
 mvn archetype:generate -DgroupId=com.hand -DartifactId=webtest -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false
 
    
